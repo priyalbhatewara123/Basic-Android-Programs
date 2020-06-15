@@ -13,27 +13,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".conmenu">
-        </activity>
-        <activity
-            android:name=".meenuu"
-            android:label="@string/title_activity_meenuu"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".whtsapp" />
-        <activity android:name=".lisst_vieww"></activity>
-        <activity android:name=".gmaiillll" />
-        <activity android:name=".ssmmss" />
-        <activity android:name=".radioooo" >
+        <activity android:name=".pop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main5Activity" />
-        <activity android:name=".order" >
+        <activity android:name=".conmenu"></activity>
+        <activity
+            android:name=".meenuu"
+            android:label="@string/title_activity_meenuu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".whtsapp" />
+        <activity android:name=".lisst_vieww" />
+        <activity android:name=".gmaiillll" />
+        <activity android:name=".ssmmss" />
+        <activity android:name=".radioooo">
         </activity>
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".order"></activity>
         <activity android:name=".Main4Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".in2" />
