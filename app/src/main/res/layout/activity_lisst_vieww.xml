@@ -7,16 +7,16 @@
     tools:context=".lisst_vieww">
 
 
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/li"
-        android:divider="#000000"
-        android:dividerHeight="2dp"
-        android:textColor="#ffffff"
-        android:background="#ffccff"
-        android:textAlignment="center"
-        android:gravity="center_horizontal" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/li"
+            android:divider="#000000"
+            android:dividerHeight="2dp"
+            android:textColor="#ffffff"
+            android:background="#ffccff"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
 
 
 

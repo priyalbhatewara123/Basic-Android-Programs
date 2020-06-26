@@ -13,32 +13,48 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pop">
+        <activity android:name=".swiperefresh">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".conmenu"></activity>
+        <activity android:name=".jsonstart"></activity>
+        <activity android:name=".prgr"></activity>
+        <activity android:name=".alrtdl" />
+        <activity android:name=".rcv" />
+        <activity android:name=".minalarm" />
+        <activity android:name=".dtpick" />
+        <activity android:name=".spn2" />
+        <activity android:name=".wvcv" />
+        <activity android:name=".minnibrow" />
+        <activity android:name=".webv" />
+        <activity android:name=".sv" />
+        <activity android:name=".spn" />
+        <activity android:name=".spf" />
+        <activity android:name=".pop" />
+        <activity android:name=".conmenu" />
         <activity
             android:name=".meenuu"
             android:label="@string/title_activity_meenuu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".whtsapp" />
-        <activity android:name=".lisst_vieww" />
+        <activity android:name=".lisst_vieww">
+        </activity>
         <activity android:name=".gmaiillll" />
         <activity android:name=".ssmmss" />
-        <activity android:name=".radioooo">
-        </activity>
+        <activity android:name=".radioooo" />
         <activity android:name=".Main5Activity" />
-        <activity android:name=".order"></activity>
+        <activity android:name=".order" />
         <activity android:name=".Main4Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".in2" />
         <activity android:name=".in1" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
+
+        <receiver android:name=".brdcst" />
     </application>
 
 </manifest>
