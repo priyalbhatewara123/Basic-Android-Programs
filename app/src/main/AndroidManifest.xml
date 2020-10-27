@@ -13,15 +13,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".swiperefresh">
+        <activity android:name=".CourtCounter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".jsonstart"></activity>
-        <activity android:name=".prgr"></activity>
+        <activity android:name=".JustJava">
+        </activity>
+        <activity android:name=".constraintExample" />
+        <activity android:name=".currenttime"></activity>
+        <activity android:name=".swiperefresh" />
+        <activity android:name=".jsonstart" />
+        <activity android:name=".prgr" />
         <activity android:name=".alrtdl" />
         <activity android:name=".rcv" />
         <activity android:name=".minalarm" />
@@ -40,8 +45,7 @@
             android:label="@string/title_activity_meenuu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".whtsapp" />
-        <activity android:name=".lisst_vieww">
-        </activity>
+        <activity android:name=".lisst_vieww" />
         <activity android:name=".gmaiillll" />
         <activity android:name=".ssmmss" />
         <activity android:name=".radioooo" />

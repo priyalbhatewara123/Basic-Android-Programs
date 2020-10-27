@@ -38,7 +38,7 @@
         android:background="#000000"
         android:text="CALL"
         android:textColor="#ffffff"
-        android:layout_below="@+id/et3"
+        android:layout_below="@id/et3"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="40dp"
         android:id="@+id/bt4"

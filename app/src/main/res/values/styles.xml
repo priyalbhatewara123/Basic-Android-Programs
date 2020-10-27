@@ -19,4 +19,13 @@
 
     <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+<!--    for CourtCounter-->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light">-->
+<!--        &lt;!&ndash; Primary theme color of the app (sets background color of app bar) &ndash;&gt;-->
+<!--        <item name="colorPrimary">#FF9800</item>-->
+<!--        <item name="colorPrimaryDark">#e68a00</item>-->
+<!--        &lt;!&ndash; Background color of buttons in the app &ndash;&gt;-->
+<!--        <item name="colorButtonNormal">#FF9800</item>-->
+<!--    </style>-->
+
 </resources>
