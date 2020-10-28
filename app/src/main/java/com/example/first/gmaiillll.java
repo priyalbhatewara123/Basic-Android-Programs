@@ -18,7 +18,7 @@ public class gmaiillll extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SEND);
-                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"priyalbhatewara2000@gmail.com"});
+                //i.putExtra(Intent.EXTRA_EMAIL, new String[]{"priyalbhatewara2000@gmail.com"});
                 i.putExtra(Intent.EXTRA_SUBJECT, "welcome");
                 i.setType("message/rfc822");
                 startActivity(Intent.createChooser(i,"Choose an Email client"));
